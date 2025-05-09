@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActualizarEjercicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarEjercicio.Designer.cs">
+      <DependentUpon>ActualizarEjercicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizarIntegrante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizarIntegrante.Designer.cs">
+      <DependentUpon>ActualizarIntegrante.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,12 @@
     <Compile Include="Resultados.Designer.cs">
       <DependentUpon>Resultados.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ActualizarEjercicio.resx">
+      <DependentUpon>ActualizarEjercicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizarIntegrante.resx">
+      <DependentUpon>ActualizarIntegrante.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

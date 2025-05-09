@@ -43,11 +43,11 @@
             this.dgvResultados.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Integrante,
             this.Ejercicio});
-            this.dgvResultados.Location = new System.Drawing.Point(73, 116);
+            this.dgvResultados.Location = new System.Drawing.Point(38, 116);
             this.dgvResultados.Name = "dgvResultados";
             this.dgvResultados.RowHeadersWidth = 51;
             this.dgvResultados.RowTemplate.Height = 24;
-            this.dgvResultados.Size = new System.Drawing.Size(619, 235);
+            this.dgvResultados.Size = new System.Drawing.Size(712, 235);
             this.dgvResultados.TabIndex = 3;
             // 
             // Integrante

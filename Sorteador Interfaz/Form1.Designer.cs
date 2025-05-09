@@ -133,6 +133,7 @@
             this.dgvEjercicios.RowTemplate.Height = 24;
             this.dgvEjercicios.Size = new System.Drawing.Size(646, 235);
             this.dgvEjercicios.TabIndex = 2;
+            this.dgvEjercicios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEjercicios_CellContentClick);
             // 
             // btnIngresarE
             // 
